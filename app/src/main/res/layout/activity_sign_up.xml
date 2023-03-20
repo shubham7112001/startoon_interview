@@ -10,9 +10,9 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="200dp"
         android:layout_marginTop="100dp"
-        android:layout_marginEnd="100dp"
+        android:layout_marginEnd="60dp"
         android:background="@drawable/signup_bg"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,41 +22,46 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:orientation="horizontal">
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:background="@drawable/upper_bg"
+            >
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="25dp"
                 android:src="@drawable/user" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
+                android:background="@null"
                 android:hint="Username" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:orientation="horizontal">
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            >
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="25dp"
                 android:src="@drawable/phone" />
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="Mobile Number"
+                android:background="@null"
                 android:inputType="number" />
         </LinearLayout>
 
@@ -65,14 +70,15 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="75dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/circle_bg"
+        android:contentDescription="OK"
+        android:src="@drawable/right_arrow"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        android:src="@drawable/right_arrow"/>
+        app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
     <TextView
         android:id="@+id/textView"
