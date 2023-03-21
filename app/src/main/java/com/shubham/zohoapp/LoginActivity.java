@@ -38,6 +38,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(loginTOMobileEt.length() == 10){
+
                     startActivity(new Intent(LoginActivity.this,LoginOtpActivity.class));
                     finishAffinity();
                 }

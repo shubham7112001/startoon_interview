@@ -35,7 +35,6 @@
                 android:inputType="number"
                 android:gravity="center"
                 android:textSize="40sp"
-                android:hint="5"
                 android:layout_margin="5dp"
                 android:textColor="@color/black"/>
             <EditText
@@ -45,7 +44,6 @@
                 android:inputType="number"
                 android:gravity="center"
                 android:textSize="40sp"
-                android:hint="5"
                 android:layout_margin="5dp"
                 android:textColor="@color/black"/>
             <EditText
@@ -55,7 +53,6 @@
                 android:inputType="number"
                 android:gravity="center"
                 android:textSize="40sp"
-                android:hint="5"
                 android:layout_margin="5dp"
                 android:textColor="@color/black"/>
             <EditText
@@ -65,7 +62,6 @@
                 android:inputType="number"
                 android:gravity="center"
                 android:textSize="40sp"
-                android:hint="5"
                 android:layout_margin="5dp"
                 android:textColor="@color/black"/>
 
@@ -132,7 +128,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/backBtn"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginStart="16dp"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "804863349921",
+    "project_id": "startoon-interview",
+    "storage_bucket": "startoon-interview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804863349921:android:59912d493392b2267e8ce0",
+        "android_client_info": {
+          "package_name": "com.shubham.zohoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804863349921-25gg0pr4n828g9urufa4pjnv06hul0fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoFd442octRBe-duntSJILPELo-r92sds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804863349921-25gg0pr4n828g9urufa4pjnv06hul0fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
